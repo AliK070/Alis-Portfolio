@@ -213,6 +213,12 @@ img {
   grid-row: span 3;
 }
 
+.link {
+
+  text-decoration: underline;
+  color:#ccc; 
+
+}
 
 
 .nav-list {
