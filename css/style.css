@@ -206,7 +206,6 @@ h2 {
 .box-skills:hover {
   box-shadow: 0px 0px 5px #49a078;
   animation: animation_card_fade ease 1.2s;
-  animation-delay: 0.2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -215,11 +214,12 @@ h2 {
   animation: animation_rotate_logo ease 1s;
 }
 
+
 .box-skills:not(:hover) {
   animation: animation_card_fade_out ease 1.2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
+} 
 
 /*#endregion */
 
@@ -297,7 +297,14 @@ h2 {
 .nav-item a {
   text-decoration: none;
   color: #dce1de;
+  transition:all 0.4;
 }
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: #d8d8d8;
+}
+
 
 .nav-item:first-child {
   animation: animation_rotate_logo ease 1.5s;
@@ -311,6 +318,9 @@ h2 {
   width: 3em;
   height: 3em;
 }
+
+
+
 /*#endregion*/
 
 /*#region Quote display*/
@@ -328,9 +338,11 @@ h2 {
 /*#endregion */
 
 /*#region Media queries*/
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .box-projects {
     flex-direction: column;
   }
+
 }
+
 /*#endregion */
