@@ -258,6 +258,8 @@ h2 {
 
 .box-blog-text figcaption {
   margin-top:-1em;
+  font-size:small;
+  font-style: italic;
 }
 
 
