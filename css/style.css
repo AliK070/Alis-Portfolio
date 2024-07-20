@@ -221,6 +221,48 @@ h2 {
   animation-fill-mode: forwards;
 } 
 
+.box-blog {
+  background-color: #1f2937;
+  border-radius: 0.5em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.box-blog img {
+  width: 55%;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius:1em;
+}
+
+.box-blog h3 {
+  text-decoration: underline;
+}
+
+.box-blog-text {
+  text-indent: 1em;
+  text-align:justify;
+
+  line-height:2em;
+}
+.box-blog-text p {
+  margin:1em;
+}
+
+.box-blog-text img {
+  width:100%;
+  padding:1em;
+  border-radius:2em;
+}
+
+.box-blog-text figcaption {
+  margin-top:-1em;
+}
+
+
+
+
 /*#endregion */
 
 /*#region Box projects*/
@@ -341,6 +383,12 @@ h2 {
 @media (max-width: 650px) {
   .box-projects {
     flex-direction: column;
+  }
+  .nav-item {
+    font-size:small;
+  }
+  body {
+    font-size:smaller;
   }
 
 }
